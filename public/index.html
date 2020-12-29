@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav
+      class="flex justify-between items-center h-16 bg-gradient-to-r from-purple-700 to-purple-600 text-white relative"
+      role="navigation"
+    >
+      <a href="index.html" id="logo" class="pl-6">CIRC</a>
+      <div class="px-4 cursor-pointer md:hidden" id="bars">
+        <svg
+          class="w-8 h-8"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          ></path>
+        </svg>
+      </div>
+      <div class="hidden md:block" id="menu">
+        <a href="index.html" class="p-4">Home</a>
+        <a href="about.html" class="p-4">About</a>
+        <a href="contact.html" class="p-4">Contact</a>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <div
+      class="bg-no-repeat bg-center bg-cover h-screen center"
+      style="background-image: url('./images/img.jpg')"
+    >
+      <div class=" text-center font-bold">
+        <h1
+          class="lg:text-9xl sm:text-6xl text-4xl mb-10 text-purple-600 hover:text-white duration-300"
+        >
+          Choose your colors
+        </h1>
+        <a
+          class="text-white text-xl center transform hover:scale-110 duration-300"
+          href="#"
+          >Explore<svg
+            class="w-6 h-6 ml-2"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M17 8l4 4m0 0l-4 4m4-4H3"
+            ></path></svg
+        ></a>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
